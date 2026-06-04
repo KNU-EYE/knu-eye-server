@@ -1,0 +1,19 @@
+# Environment Variables
+.env
+
+# Build outputs
+build/
+.gradle/
+out/
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+# Docker
+.docker/
+
+# OS files
+.DS_Store
+Thumbs.db
