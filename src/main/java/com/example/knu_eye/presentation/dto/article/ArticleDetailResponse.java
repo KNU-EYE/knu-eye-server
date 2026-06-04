@@ -13,6 +13,7 @@ public class ArticleDetailResponse {
     private String id;
     private String title;
     private String contents;
+    private String summary;
     private String author;
 
     @JsonProperty("original_link")

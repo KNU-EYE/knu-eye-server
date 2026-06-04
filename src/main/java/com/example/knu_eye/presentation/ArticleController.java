@@ -32,7 +32,7 @@ public class ArticleController {
         return ResponseEntity.ok(ApiResponse.success(response));
     }
 
-    @PostMapping("/api/article")
+    @PostMapping("/api/articles")
     public ResponseEntity<ApiResponse<ArticleCreateResponse>> createArticle(
             @Valid @RequestBody ArticleCreateRequest request) {
 

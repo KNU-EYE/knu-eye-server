@@ -156,6 +156,7 @@ public class ArticleService {
                 .id(String.valueOf(article.getId()))
                 .title(article.getTitle())
                 .contents(article.getContents())
+                .summary(article.getSummary())
                 .author(article.getAuthor())
                 .originalLink(article.getOriginalLink())
                 .imageUrl(article.getImageUrl())
